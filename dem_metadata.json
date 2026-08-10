@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Keyport DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Keyport Borough boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 2440,
+  "height": 2387,
+  "nodata": -999999,
+  "minMeters": -1.62,
+  "maxMeters": 17.599,
+  "meanMeters": 6.282,
+  "stdDevMeters": 3.646,
+  "minFeet": -5.314960629900001,
+  "maxFeet": 57.739501312105006,
+  "webMercatorBounds": [
+    -8261799.794795,
+    4927546.485165,
+    -8258081.234795,
+    4931184.273165
+  ],
+  "leafletBounds": [
+    [
+      40.4226201,
+      -74.2170103
+    ],
+    [
+      40.4474851,
+      -74.1836061
+    ]
+  ],
+  "files": {
+    "demCog": "keyport_dem_5ft_cog.tif",
+    "hillshadeCog": "keyport_hillshade_cog.tif",
+    "hillshadePng": "keyport_hillshade.png",
+    "boundaryGeojson": "keyport_boundary.geojson"
+  }
+}
